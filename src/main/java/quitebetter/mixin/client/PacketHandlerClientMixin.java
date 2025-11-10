@@ -48,9 +48,9 @@ public class PacketHandlerClientMixin {
 		at = @At("HEAD")
 	)
 	public void handleSetSlot(PacketContainerSetSlot containerSetslotPacket, CallbackInfo ci) {
-		if (containerSetslotPacket.windowId == 0 && containerSetslotPacket.itemSlot<9) {
-			containerSetslotPacket.itemSlot += 36;
-			LOGGER.warn("PacketContainerSetSlot was modified!");
-		}
+		//if (containerSetslotPacket.windowId == 0 && containerSetslotPacket.itemSlot<9) {
+		//	containerSetslotPacket.itemSlot += 36;
+		//	LOGGER.warn("PacketContainerSetSlot was modified!");
+		//}
 	}
 }
