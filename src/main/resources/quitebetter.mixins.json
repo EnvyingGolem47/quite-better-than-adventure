@@ -12,7 +12,6 @@
     "core.CreativeItemsMixin",
     "core.EntityFallingBlockMixin",
     "core.EntityMinecartMixin",
-    "core.FishingBobberMixin",
     "core.PlayerMixin",
     "core.TileEntityBasketMixin",
     "core.TileEntityDispatcherMixin",
